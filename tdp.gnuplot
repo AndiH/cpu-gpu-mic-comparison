@@ -9,10 +9,10 @@ set style line 3  linetype -1 linewidth 3 lc rgb "#971c00"
 set style line 4  linetype -1 linewidth 3 lc rgb "#000000"
 set style increment user
 
-set size 1.15,1.15
+set size 1.6,1.15
 set border linewidth 1.5
 
-set xrange [2006.4:2016.6]
+set xrange [2006.4:2017.6]
 set key samplen 6 spacing 3.0
 set key bottom right
 set grid lw 3
@@ -56,6 +56,7 @@ set label "Tesla K20X"   at 2013,225 center rotate by 30 textcolor rgb "#00D317"
 set label "Tesla K40"    at 2014,215 center rotate by 30 textcolor rgb "#00D317"
 set label "Tesla K40"    at 2015,215 center rotate by 30 textcolor rgb "#00D317"
 set label "Tesla P100"   at 2016.2,275 center rotate by 30 textcolor rgb "#00D317"
+set label "Tesla V100"   at 2017,320 center rotate by 20 textcolor rgb "#00D317"
 
 # Labels Xeon Phi
 set label "Xeon Phi 7120 (KNC)" at 2014,310 center rotate by 00

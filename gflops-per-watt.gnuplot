@@ -9,12 +9,12 @@ set style line 3  linetype -1 linewidth 3 lc rgb "#971c00"
 set style line 4  linetype -1 linewidth 3 lc rgb "#000000"
 set style increment user
 
-set size 1.15,1.15
+set size 1.6,1.15
 set border linewidth 1.5
 
 set logscale y
 set format y "10^{%L}"
-set xrange [2006.4:2016.6]
+set xrange [2006.4:2017.6]
 set key samplen 6 spacing 3.0
 set key bottom right
 set grid lw 3
@@ -59,6 +59,7 @@ set label "GTX Titan"      at 2013,25 center rotate by 30 textcolor rgb "#00D317
 set label "Tesla K40"      at 2014,30  center rotate by 30 textcolor rgb "#00D317"
 set label "GTX Titan X"    at 2015,35 center rotate by 30 textcolor rgb "#00D317"
 set label "NVIDIA Titan X" at 2016,60 center rotate by 30 textcolor rgb "#00D317"
+set label "NVIDIA Titan V" at 2017,70 center rotate by 30 textcolor rgb "#00D317"
 
 # Labels Xeon Phi
 set label "Xeon Phi 7120 (KNC)" at 2014,10.6 center rotate by 00
@@ -107,6 +108,7 @@ set label "Tesla K20"    at 2012,7 center rotate by 30 textcolor rgb "#00D317"
 set label "Tesla K20X"   at 2013,8 center rotate by 30 textcolor rgb "#00D317"
 set label "Tesla K40"    at 2014.5,7.5 center rotate by 00 textcolor rgb "#00D317"
 set label "Tesla P100"   at 2016,25 center rotate by 30 textcolor rgb "#00D317"
+set label "Tesla V100"   at 2017,34 center rotate by 30 textcolor rgb "#00D317"
 
 # Labels Xeon Phi
 set label "Xeon Phi 7120 (KNC)" at 2014.5,2.7 center rotate by 00
